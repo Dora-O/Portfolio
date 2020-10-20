@@ -5,6 +5,12 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
 body {
     margin: 0;
     display: flex;
@@ -58,4 +64,53 @@ nav ul li {
     background-size: cover;
     background-position: center;
 }
+article {
+    display: block;
+    background-color: rgb(44, 93, 121);
+    
+}
 
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 20%;
+    background-color: rgb(231, 218, 94);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.content{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 80%;
+}
+.article {
+    flex-grow: 1;
+    align-self: auto;
+    flex-basis: auto;
+}
+.dora {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+}
+
+.projects {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+}
+
+.contact-info{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+}
