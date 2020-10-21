@@ -31,6 +31,7 @@ header h1 {
     font-size: 50px;
     font-style: italic;
     font-variant-caps: all-petite-caps;
+    background-color: rgb(39, 119, 139)
 }
 
 nav {
@@ -39,6 +40,7 @@ nav {
     float: right;
     padding-top: 8px;
     padding-right: 8px;
+    background-color: rgb(39, 119, 139)
 }
 
 nav a {
@@ -50,6 +52,7 @@ nav a {
 
 nav ul {
     list-style-type: none;
+    background-color: rgb(39, 119, 139)
 }
 
 nav ul li {
