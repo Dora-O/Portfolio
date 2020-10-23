@@ -141,3 +141,85 @@ li, p{
 a{
     background-color: rgb(39, 119, 139)
 }
+@media screen and (max-width:992px){
+    .img3{
+        height: 400px;
+        width: 325px;
+        float: right;
+        background-color: rgb(39, 119, 139)
+    }
+    .dora{
+        font-size: 11pt;
+    }
+    .img1{
+        height: 275px;
+        width: 375px;
+        float: right;
+        background-color: rgb(39, 119, 139)
+    }
+    .img2{
+        height: 275px;
+        width: 375px;
+        float: left;
+        background-color: rgb(39, 119, 139)
+    }
+}
+
+@media screen and (max-width:768px){
+    
+   .dora{
+       font-size: 9pt;
+   }
+   .img3{
+    height: 300px;
+    width: 225px;
+    float: right;
+    background-color: rgb(39, 119, 139)
+}
+.img1{
+    height: 200px;
+    width: 300px;
+    float: right;
+    background-color: rgb(39, 119, 139)
+}
+.img2{
+    height: 200px;
+    width: 300px;
+    float: left;
+    background-color: rgb(39, 119, 139)
+}
+}
+
+
+@media screen and (max-width:572px){
+    nav a {
+        color: skyblue;
+        text-decoration: none;
+        font-size: 12px;
+        font-variant-caps: small-caps;
+    }
+    .dora{
+        font-size: 8pt;
+    }
+    .img3{
+     height: 100px;
+     width: 75px;
+     float: right;
+     background-color: rgb(39, 119, 139)
+ }
+ .img1{
+     height: 150px;
+     width: 250px;
+     float: right;
+     background-color: rgb(39, 119, 139)
+ }
+ .img2{
+     height: 150px;
+     width: 250px;
+     float: left;
+     background-color: rgb(39, 119, 139)
+ }
+
+}
+
+
