@@ -143,28 +143,33 @@ a{
 }
 
 
-@media screen and (max-width:572px){
-    nav a {
-        color: skyblue;
-        text-decoration: none;
-        font-size: 12px;
-        font-variant-caps: small-caps;
+
+    
+@media screen and (max-width:992px){
+    .img3{
+        height: 400px;
+        width: 325px;
+        float: right;
+        background-color: rgb(39, 119, 139)
     }
     .dora{
-        font-size: 8pt;
+        font-size: 11pt;
     }
-    .img3, .img1, .img2{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: auto;
+    .img1{
+        height: 275px;
+        width: 375px;
+        float: right;
+        background-color: rgb(39, 119, 139)
+    }
+    .img2{
+        height: 275px;
+        width: 375px;
+        float: left;
         background-color: rgb(39, 119, 139)
     }
 }
-
-
 @media screen and (max-width:768px){
-    
+
     .dora{
         font-size: 9pt;
         margin-bottom: 20px;
@@ -193,28 +198,25 @@ a{
         background-color: rgb(39, 119, 139)
     }
     }
-    
-    @media screen and (max-width:992px){
-        .img3{
-            height: 400px;
-            width: 325px;
-            float: right;
-            background-color: rgb(39, 119, 139)
-        }
-        .dora{
-            font-size: 11pt;
-        }
-        .img1{
-            height: 275px;
-            width: 375px;
-            float: right;
-            background-color: rgb(39, 119, 139)
-        }
-        .img2{
-            height: 275px;
-            width: 375px;
-            float: left;
-            background-color: rgb(39, 119, 139)
-        }
+
+@media screen and (max-width:572px){
+    nav a {
+        color: skyblue;
+        text-decoration: none;
+        font-size: 12px;
+        font-variant-caps: small-caps;
     }
+    .dora{
+        font-size: 8pt;
+        height: auto;
+    }
+    .img3, .img1, .img2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        background-color: rgb(39, 119, 139)
+    }
+}
+
     
