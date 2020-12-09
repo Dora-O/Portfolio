@@ -154,6 +154,10 @@ a{
     }
     .dora{
         font-size: 11pt;
+        height: auto;
+    }
+    .projects{
+        height: auto;
     }
     .img1{
         height: 275px;
@@ -174,10 +178,12 @@ a{
         font-size: 9pt;
         margin-bottom: 20px;
         padding: 50px;
+        height: auto;
        }
     .projects, .contact-info{
         margin-bottom: 20px;
         padding: 50px;
+        height: auto;
     }
     .img3{
         height: 300px;
