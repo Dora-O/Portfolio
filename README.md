@@ -11,4 +11,4 @@ Projects section will be updated once a project is available.
 
 https://dora-o.github.io/Portfolio/
 
-Screenshot of deployed site :<img src =https://user-images.githubusercontent.com/70343136/101712807-f7471d80-3a5b-11eb-8080-da3947005f63.png
+Screenshot of deployed site :<img src =https://user-images.githubusercontent.com/70343136/101712807-f7471d80-3a5b-11eb-8080-da3947005f63.png>
